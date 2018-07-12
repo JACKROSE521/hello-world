@@ -1,0 +1,40 @@
+#content {
+				width: 100%;
+				padding: 30px 0 230px 0;
+				box-sizing: border-box;
+				background: #efefef;
+			}
+			.table{
+				width: 80%;
+				margin: auto;
+				padding: 10px;
+				border-radius: 5px;
+				box-shadow: 0 0 5px #666666;
+				box-sizing: border-box;
+			}
+			.table table{
+				border: none;
+				width: 100%;
+			}
+			.table table th{
+				background: #7F8C8D;
+				color: white;
+			}
+			.table table td img{
+				height: 30px;
+			}
+			.table table td{
+				white-space:nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.table table td,th{
+				border:1px solid #BFBFBF;
+				text-align: center;
+			}
+			.table table th,td{
+				height: 40px;
+			}
+			.table table td:first-child,th:first-child{
+				width: 100px;
+			}

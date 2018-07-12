@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,
+body,
+ {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: '微软雅黑';
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+body {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+/*底部*/
+
+#footer {
+	width: 100%;
+	height: 80px;
+	background: #606060;
+	padding: 20px;
+	box-sizing: border-box;
+	border-top: 1px solid white;
+}
+
+.footer {
+	width: 70%;
+	margin: auto;
+	height: 40px;
+	color: white;
+	text-align: center;
+}
+
+.title {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #616161;
+	font-size: 24px;
+}
+
+
+/*选择尚德开始*/
+
+.Choices {
+	width: 100%;
+	height: 600px;
+	background: url(../images/Choices.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.Choices_text {
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.Choices_head {
+	width: 100%;
+	float: left;
+	height: 55px;
+	margin-top: 50px;
+	line-height: 55px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 48px;
+	color: #FFF;
+	display: block;
+	position: relative;
+}
+
+.Choices_head:before,
+.Choices_head:after {
+	content: '';
+	position: absolute;
+	top: 30px;
+	background: #FFF;
+	width: 265px;
+	height: 2px;
+}
+
+.Choices_head:before {
+	left: 175px;
+}
+
+.Choices_head:after {
+	right: 175px;
+}
+
+.Choices_content {
+	width: 1184px;
+	height: 594px;
+	float: left;
+	margin-left: 3px;
+}
+.Choicesnext{
+	width: 100%;
+	height: 37px;
+	margin-top: 24px;
+	
+}
+.Choicesnext img{
+	width: 38px;
+	height: 37px;
+	cursor: pointer;
+}
+.Choicesnext img:last-child{
+	float: right;
+}
+.Choicesnext img:first-child{
+	float: left;
+	transform: rotate(180deg);
+}
+.Choices_banner {
+	width: 1184px;
+	height: 399px;
+	float: left;
+	margin-top: 39px;
+	overflow: hidden;
+}
+
+.Choices_banner ul {
+	width: 12000px;
+	overflow: hidden;
+}
+
+.Choices_banner ul li {
+	width: 1184px;
+	height: 399px;
+	float: left;
+}
+
+.Choices_left {
+	width: 684px;
+	height: 399px;
+	float: left;
+}
+.Choices_left img{
+	width: 100%;
+	height: 100%;
+}
+.Choices_right {
+	width: 500px;
+	height: 399px;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.6)
+}
+
+.Choices_right h1 {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 30px;
+	color: #464646;
+}
+
+.Choices_right h3 {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+	color: #464646;
+}
+
+.Choices_right p {
+	width: 90%;
+	height: 70px;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+	color:white;
+	margin-top: 30px;
+}
+
+.Choicesbut {
+	width: 197px;
+	height: 49px;
+	float: left;
+	border: 1px solid #bfbfbf;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	line-height: 49px;
+	color: #606060;
+	font-size: 22px;
+	margin-left: 195px;
+	margin-top: 57px;
+}
+
+.Choicestel {
+	width: 1184px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 36px;
+	float: left;
+	font-family: "Arial";
+	overflow: hidden;
+	color: #FFF;
+	margin-top: 100px;
+	-webkit-user-select: none;
+	/*谷歌 /Chrome*/
+	-moz-user-select: none;
+	/*火狐/Firefox*/
+	-ms-user-select: none;
+	/*IE 10+*/
+	user-select: none;
+}
+
+.Choicestel ul {
+	width: 12000px;
+	overflow: hidden;
+}
+
+.Choicestel ul li {
+	width: 1184px;
+	height: 38px;
+	float: left;
+}
+
+
+/*选择尚德结束*/

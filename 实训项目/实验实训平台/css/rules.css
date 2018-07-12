@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+li {
+	list-style: none;
+	cursor: pointer;
+}
+
+
+
+#content {
+	width: 90%;
+	margin: auto;
+	height: auto;
+	padding: 30px 0 200px 0;
+	box-sizing: border-box;
+}
+
+#title {
+	width: 100%;
+	height: 45px;
+	line-height: 35px;
+	color: white;
+	padding: 5px 15px;
+	box-sizing: border-box;
+	background: #606060;
+}
+
+#title span {
+	margin-left: 10px;
+}
+
+#content>div {
+	width: 70%;
+	margin:30px auto;
+	height: 280px;
+}
+
+#content>div .content_title {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	background: #57AEFF;
+}
+
+.content_title a {
+	float: right;
+}
+
+.content_title a:hover {
+	text-decoration: underline;
+	color: black;
+	cursor: pointer;
+}
+
+.content_con {
+	height: 245px;
+	border-left: 1px solid #7F8C8D;
+	border-right: 1px solid #7F8C8D;
+	border-bottom: 1px solid #7F8C8D;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.content_con ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #efefef;
+}
+
+.content_con ul li:hover {
+	background: #dedfdf;
+}
+
+.content_con ul li a,
+.content_con ul li span {
+	color: #606060;
+	font-size: 12px;
+}
+
+.content_con ul li a {
+	display: inline-block;
+	width: 80%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.content_con ul li span {
+	float: right;
+}
+
+
+/*返回*/
+
+.back {
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	color: white;
+	background: #1ba3f9;
+	cursor: pointer;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
